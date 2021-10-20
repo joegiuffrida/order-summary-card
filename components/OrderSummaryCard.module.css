@@ -1,0 +1,135 @@
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  width: 25%;
+  min-width: 375px;
+  min-height: 650px;
+  max-height: 700px;
+  border-radius: 1.5em;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0 0.1em 1.5em -0.9em;
+}
+
+.container header {
+  display: flex;
+  justify-content: flex-start;
+  height: 29%;
+  width: 100%;
+  background: top/100% no-repeat url(../public/illustration-hero.svg);
+  border-radius: 1.5em 1.5em 0 0;
+}
+
+.container main {
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  margin-top: 5em;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.container main h1 {
+  color: #1f2f56;
+  margin: 1em 0 0.3em 0;
+}
+
+.container main p {
+  text-align: center;
+  line-height: 1.5em;
+  width: 70%;
+  color: rgba(148, 156, 176, 1);
+}
+
+.container section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(224, 232, 255, 0.3);
+  height: 35%;
+  width: 80%;
+  margin-top: 1em;
+  border-radius: 1em;
+}
+
+.itunesLogo {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  margin-left: 1em;
+  width: 70%;
+}
+
+.itunesLogo p {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  width: 40%;
+  margin: 0.5em 0 0.5em 1em;
+}
+
+.itunesLogo p span {
+  font-weight: bold;
+  color: #1f2f56;
+}
+
+.change {
+  display: flex;
+  justify-content: center;
+  width: 30%;
+  font-size: 0.9em;
+  color: #3224ca;
+  text-decoration: underline;
+}
+
+.change:hover {
+  text-decoration: none;
+}
+
+.container footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+  height: 40%;
+  width: 100%;
+}
+
+.container footer button {
+  width: 80%;
+  height: 40%;
+  border-radius: 1em;
+  border: none;
+  background-color: #3829e0;
+  color: white;
+  font-size: 1em;
+  font-weight: 700;
+  transition: box-shadow 0.25s, transform 0.25s, background-color 0.25s;
+}
+
+.container footer button:hover {
+  cursor: pointer;
+  background-color: #7d52ff;
+  box-shadow: 0 0.5em 0.5em -0.4em #7d52ff;
+  transform: translateY(-0.25em);
+}
+
+.footer a {
+  color: #6b7387;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.footer a:hover {
+  color: black;
+}

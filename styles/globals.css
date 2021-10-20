@@ -1,0 +1,22 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Red Hat Display', sans-serif, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+    Helvetica Neue, sans-serif;
+}
+
+body {
+  background: top/100% no-repeat url(../public/pattern-background-desktop.svg),
+    rgba(224, 232, 255, 0.8);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
